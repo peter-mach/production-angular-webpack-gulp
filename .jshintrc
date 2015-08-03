@@ -1,0 +1,44 @@
+{
+  "globalstrict": true,
+  "bitwise": true,
+  "camelcase": true,
+  "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "indent": 4,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "quotmark": "single",
+  "regexp": true,
+  "undef": true,
+  "unused": true,
+  "strict": true,
+  "trailing": true,
+  "smarttabs": true,
+  "white": true,
+  "validthis": true,
+  "globals": {
+    "angular": false,
+    // Angular Mocks
+    "inject": false,
+    "module": false,
+    // JASMINE
+    "jasmine": false,
+    "describe": false,
+    "it": false,
+    "before": false,
+    "beforeEach": false,
+    "after": false,
+    "afterEach": false,
+    "expect": false,
+    "spyOn": false,
+    // BROWSER
+    "window": false,
+    //"console": false,
+    "document": false
+  },
+  "predef": [
+    "require"
+  ]
+}

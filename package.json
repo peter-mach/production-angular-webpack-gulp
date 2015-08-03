@@ -1,0 +1,60 @@
+{
+  "name": "greatestApp",
+  "version": "0.0.1",
+  "author": "Piotr Machowski <piotr@machowski.co>",
+  "description": "greatestApp",
+  "main": "",
+  "scripts": {
+    "install": "bower install",
+    "start": "gulp serve",
+    "test": "gulp test",
+    "prod": "gulp --production"
+  },
+  "keywords": [],
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": "",
+  "homepage": "",
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-cached": "1.0.1",
+    "gulp-changed": "^1.0.0",
+    "gulp-karma": "0.0.4",
+    "gulp-util": "~3.0.1",
+    "minimist": "1.1.0",
+    "rimraf": "^2.2.8",
+
+    "karma": "^0.12.31",
+    "karma-jasmine": "~0.3.1",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "karma-webpack": "^1.3.1",
+    "phantomjs-polyfill": "0.0.1",
+
+    "webpack": "^1.4.9",
+    "webpack-core": "^0.4.8",
+    "webpack-dev-server": "~1.9.0",
+
+    "raw-loader": "*",
+    "imports-loader": "*",
+    "exports-loader": "*",
+    "json-loader": "^0.5.1",
+    "less-loader": "^2.2.0",
+    "css-loader": "*",
+    "style-loader": "*",
+    "ng-cache-loader": "0.0.1",
+    "ngtemplate-loader": "^0.1.2",
+
+    "html-webpack-plugin": "^1.1.0",
+    "ng-annotate-webpack-plugin": "^0.1.2",
+
+    "ndjson": "^1.4.1"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "cool-ascii-faces": "~1.3.3",
+    "ecstatic": "~0.5.4"
+  }
+}

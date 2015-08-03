@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app="greatestApp">
+    <head>
+        <base href="/">
+        <meta charset="utf-8">
+        <title>Greatest App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header>
+            <span class="logo">(っ◕‿◕)っ</span>
+            <h1>Greatest App</h1>
+        </header>
+
+
+        <div ui-view></div>
+
+        <footer>
+            <p>Made with ⚡ by <a href="mailto:piotr@machowski.co">Piotr Machowski</a></p>
+        </footer>
+
+
+
+        {% for (var chunk in o.htmlWebpackPlugin.files.js) { %}
+        <script src="{%=o.htmlWebpackPlugin.files.js[chunk]%}"></script>
+        {% } %}
+    </body>
+</html>
